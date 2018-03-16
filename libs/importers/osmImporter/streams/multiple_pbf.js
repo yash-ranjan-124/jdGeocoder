@@ -13,7 +13,6 @@ function createCombinedStream(){
             next(pbf.parser(conf));
         });
     });
-console.log(fullStream);
     return fullStream;
 
 }

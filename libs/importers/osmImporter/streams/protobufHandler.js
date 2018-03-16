@@ -25,6 +25,7 @@ function createPbfStream(opts){
 // Generate configuration options for pbf2json, apply default
 // configurations where not explicitly specified.
 function config(opts){
+
     if (!opts){
         opts = {};
     }
