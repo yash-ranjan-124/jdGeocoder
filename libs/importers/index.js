@@ -3,10 +3,10 @@ let jdImporter = require('./jdbusinessImporter/importer');
 
 function importData(type){
     if(type == "osm"){
-        osmImporter.init();
+        osmImporter.start();
     }
     else if(type == "jd"){
-        jdImporter.init();
+        jdImporter.start();
     }else{
         console.log({err:"no such type!!"});
         return false;
